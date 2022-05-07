@@ -1,0 +1,125 @@
+/** HEADER **/
+#header-nav {
+  background-color: #999;
+}
+
+.navbar-brand { 
+  color: #000;
+  font-family: 'Comic Neue', cursive, serif;
+  font-weight: bold;
+
+}
+
+a.navbar-brand:hover, a.navbar-brand:focus, a.navbar-brand:active, a.navbar-brand:visited, a.navbar-brand:link {
+  text-decoration: none;
+  font-size: 1.7em;
+}
+
+.menuItemSection{
+  background-color:  #CCC;
+} 
+
+.menuNavDrop{
+  color:  #000;
+}
+
+.navbar-default{
+  background-color: #CCC;
+}
+
+.navbar-default .navbar-nav>li>a:link{
+  background-color: #999;
+  border: 1px solid #C1C1C1;
+  color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:visited{
+  background-color: #999;
+  border: 1px solid #C1C1C1;
+  color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  background-color: #f08080 ;
+  border: 1px solid #fff;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:active{
+  background-color: #f08080 ;
+  border: 1px solid #fff;
+  color: antiquewhite;
+  font-weight: bold;  
+}
+
+h1{
+  color: #000;
+  font-size: 2.5em;
+  paddding: 10px;
+  margin: 5px;
+  font-family: 'Comic Neue', cursive, serif;
+}
+
+h2{
+  font-size:1.75em;
+  font-family: 'Comic Neue', cursive, serif;
+  font-weight: bold;
+  padding-top: 10px;
+  color: #000;
+}
+
+p{
+  color: #000;
+  font-size:  1.25em;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container-fluid{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  .container-fluid{
+    min-width: 275px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
